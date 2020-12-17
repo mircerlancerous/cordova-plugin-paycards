@@ -4,6 +4,7 @@ A cordova plugin wrapping the terrific work of the Pay.Cards team.
 https://pay.cards/
 
 Currently only supports Android as I am not currently equipped to do iOS development; there is a Pay.Cards iOS SDK.
+
 https://github.com/faceterteam/PayCards_Android
 
 https://github.com/faceterteam/PayCards_iOS
