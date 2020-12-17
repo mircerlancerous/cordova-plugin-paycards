@@ -1,0 +1,8 @@
+repositories {
+     maven { url "http://pay.cards/maven" }
+}
+
+dependencies {
+    implementation 'cards.pay:paycardsrecognizer:1.1.0'
+}
+

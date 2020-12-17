@@ -1,0 +1,9 @@
+https://github.com/faceterteam/PayCards_Android
+https://github.com/faceterteam/PayCards_iOS
+
+https://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html#adding-dependency-libraries
+https://ourcodeworld.com/articles/read/135/how-to-add-a-dependency-maven-or-jcenter-to-an-android-cordova-plugin
+
+add and remove local cordova plugin
+cordova plugin add /path/to/my/plugin/my.plugin.folder.here/
+cordova plugin remove my.plugin.folder.here

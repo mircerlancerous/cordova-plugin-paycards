@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-paycards",
+  "version": "1.0.0",
+  "description": "Credit Card Scanning with Camera",
+  "cordova": {
+    "id": "cordova-plugin-paycards",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mircerlancerous/cordova-plugin-paycards.git"
+  },
+  "keywords": [
+    "creditcard",
+    "paycards",
+    "scanner",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Mircerlancerous <mircerlancerous@offthebricks.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mircerlancerous/cordova-plugin-paycards/issues"
+  },
+  "homepage": "https://github.com/mircerlancerous/cordova-plugin-paycards#readme"
+}

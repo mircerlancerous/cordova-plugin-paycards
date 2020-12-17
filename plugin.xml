@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-paycards"
+    version="1.0.0">
+
+    <name>PayCards</name>
+    <description>Credit Card Scanning with Camera</description>
+    <license>Apache 2.0</license>
+    <keywords>credit card, camera, paycards</keywords>
+
+    <repo>https://github.com/mircerlancerous/cordova-plugin-paycards.git</repo>
+    <issue>https://github.com/mircerlancerous/cordova-plugin-paycards/issues</issue>
+
+    <js-module src="www/paycards.js" name="paycards">
+        <clobbers target="paycards" />
+    </js-module>
+
+    <platform name="android">
+    	<!--<framework src="cards.pay:paycardsrecognizer:1.1.0"/>-->
+    	<framework src="src/android/plugin.gradle" custom="true" type="gradleReference"/>
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PayCardsPlugin">
+                <param name="android-package" value="com.otb.cordova.paycards.PayCardsPlugin"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/PayCardsPlugin.java"
+            target-dir="src/com/otb/cordova/hce"/>
+    </platform>
+
+</plugin>
